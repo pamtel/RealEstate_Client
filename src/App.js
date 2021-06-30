@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Header/Navbar";
+import SubHeader from "./components/Header/SubHeader";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import ForSale from "./Pages/ForSale";
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Router>
+        <SubHeader />
         <Navbar />
 
         <div className="pages">

@@ -20,9 +20,8 @@
 }
 
 .nav-logo{
-    color: var(--secondary);
+    color: #fff;
     align-items: center;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;

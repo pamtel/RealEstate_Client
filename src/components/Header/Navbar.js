@@ -9,7 +9,7 @@ const Navbar = () => {
     }
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar pl-3 md:px-16">
         <div className="nav-container">
           <NavLink exact to="/" activeClassName="active" className="nav-logo">
             Real Estate
