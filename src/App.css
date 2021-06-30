@@ -1,10 +1,5 @@
 @import './components/stylesheet/navbar.css'; 
 
-:root {
-  --primary: #0d3250;
-  --secondary: #3c97ff;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -16,9 +11,9 @@ body{
   background-color: #f2f2f2;
 }
 
-.pages{
+/* .pages{
   color: #316685;
   text-align: center;
   font-size: 2.5rem;
   top: 2rem;
-}
+} */

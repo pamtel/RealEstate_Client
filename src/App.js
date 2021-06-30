@@ -1,11 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Header/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/Pages/Home";
-import ForSale from "./components/Pages/ForSale";
-import ToRent from "./components/Pages/ToRent";
-import SellProperty from "./components/Pages/SellProperty";
-import Contact from "./components/Pages/Contact";
+import Home from "./Pages/Home";
+import ForSale from "./Pages/ForSale";
+import ToRent from "./Pages/ToRent";
+import SellProperty from "./Pages/SellProperty";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (

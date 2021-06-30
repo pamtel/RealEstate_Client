@@ -94,11 +94,10 @@
       z-index: 1;
     }
     .nav-item .active {
-      color: var(--secondary);
       border: none;
     }
     .nav-links {
-      padding: 1.5rem;
+      padding: 1rem 1.5rem;
       width: 100%;
       display: table;
     }
