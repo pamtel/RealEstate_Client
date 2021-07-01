@@ -20,7 +20,7 @@
 }
 
 .nav-logo{
-    color: #fff;
+    color: var(--secondary);
     align-items: center;
     cursor: pointer;
     text-decoration: none;
