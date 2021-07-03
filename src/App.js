@@ -1,7 +1,6 @@
 import "./App.css";
-import Navbar from "./components/Header/Navbar";
-import SubHeader from "./components/Header/SubHeader";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
+import Layout from "./components/Layout";
 import Home from "./Pages/Home";
 import ForSale from "./Pages/ForSale";
 import ToRent from "./Pages/ToRent";
@@ -9,23 +8,17 @@ import SellProperty from "./Pages/SellProperty";
 import Contact from "./Pages/Contact";
 
 function App() {
+  let location = useLocation();
   return (
-    <div>
-      <Router>
-        <SubHeader />
-        <Navbar />
-
-        <div className="pages">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/forSale" component={ForSale} />
-            <Route exact path="/toRent" component={ToRent} />
-            <Route exact path="/sellProperty" component={SellProperty} />
-            <Route exact path="/contact" component={Contact} />
-          </Switch>
-        </div>
-      </Router>
-    </div>
+    <Layout>
+      <Switch location={location} key={location.pathname}>
+        <Route exact path="/" component={Home} />
+        <Route path="/forSale" component={ForSale} />
+        <Route path="/toRent" component={ToRent} />
+        <Route path="/sellProperty" component={SellProperty} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Layout>
   );
 }
 
