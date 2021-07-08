@@ -3,6 +3,7 @@ import BackToTop from "./BackToTop";
 import StartTop from "./StartTop";
 import Navbar from "./Header/Navbar";
 import SubHeader from "./Header/SubHeader";
+import Footer from "./Footer";
 
 const propTypes = {
   children: PropTypes.any.isRequired,
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
       <BackToTop />
       <StartTop />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

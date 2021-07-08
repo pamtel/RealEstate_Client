@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="navbar pl-3 md:px-20">
         <div className="nav-container">
           <NavLink exact to="/" activeClassName="active" className="nav-logo">
-            Alpha Homes
+            Rock Villa
           </NavLink>
         
 

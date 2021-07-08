@@ -1,48 +1,41 @@
 @import './components/stylesheet/navbar.css'; 
 
-/* .pages{
-  color: #316685;
-  text-align: center;
-  font-size: 2.5rem;
-  top: 2rem;
-} */
 
 .h-carousel {
+  position: relative;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(189, 136, 136, 0.4);
   height: 600px;
   background-position: center center;
   background-size: cover;
   background-blend-mode: overlay;
 }
 
-/* .banner {
-  height: 40vh;
+.banner {
+  height: 45vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5) url("./Images/banner.jpg");
+  background: rgba(0, 0, 0, 0.5) url("./images/banner.jpg");
   background-blend-mode: overlay;
   background-position: center;
-} */
-
-/* BACK TO TOP */
-.scroll-to-top {
-  bottom: 13px;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  z-index: 200;
+  background-size: cover;
 }
 
-.scroll-to-top .icon {
-  margin-top: 10px;
-  animation: scrollTop 0.5s alternate ease infinite;
+.mapouter {
+  position: relative;
+  text-align :right;
+  height: 300px;
+  width: 100%;
 }
 
-@keyframes scrollTop {
-  from {
-    transform: translateY(2px);
-  }
-  to {
-    transform: translateY(-1px);
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  height: 300px;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .banner {
+    height: 40vh;
   }
 }

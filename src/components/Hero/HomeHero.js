@@ -59,17 +59,46 @@ const MobileCarousel = () => {
       <SwiperSlide>
         <div className="h-carousel">
           <img src={Slider1} alt="homeslide" className="w-full h-full" />
-          <p className="text-lg text-white">4 BEDROOMS TERRACE DUPLEX</p>
+          <div className="absolute text-white top-60 left-5 sm:left-11 w-8/12 sm:w-4/12 bg-secondary p-8 rounded-lg">
+            <p className="text-lg sm:text-xl pb-3 font-bold">4 BEDROOMS TERRACE DUPLEX</p>
+            <p className="text-sm opacity-60 pb-3">APPLEWOOD ESTATE 3, BETWEEN HEYDEN AND NORTHWEST FILLING STATION, VGC, LEKKI, LAGOS</p>
+            <ul className="flex text-sm font-bold pb-3">
+              <li className="pr-4">BEDROOM 4</li>
+              <li>BATHROOM 4</li>
+            </ul>
+            <hr />
+            <p className="text-2xl font-bold pt-3">#55,000,000</p>
+          </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="h-carousel">
           <img src={Slider2} alt="homeslide" className="w-full h-full" />
+          <div className="absolute text-white top-60 left-5 sm:left-11 w-8/12 sm:w-4/12 bg-secondary p-8 rounded-lg">
+            <p className="text-lg sm:text-xl pb-3 font-bold">4 BEDROOMS TERRACE DUPLEX</p>
+            <p className="text-sm opacity-60 pb-3">4 BEDROOM APARTMENT, LEKKI PHASE 1, LAGOS </p>
+            <ul className="flex text-sm font-bold pb-3">
+              <li className="pr-4">BEDROOM 4</li>
+              <li>BATHROOM 4</li>
+            </ul>
+            <hr />
+            <p className="text-2xl font-bold pt-3">#55,000,000</p>
+          </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="h-carousel">
           <img src={Slider3} alt="homeslide" className="w-full h-full" />
+          <div className="absolute text-white top-60 left-5 sm:left-11 w-8/12 sm:w-4/12 bg-secondary p-8 rounded-lg">
+            <p className="text-lg sm:text-xl pb-3 font-bold">4 BEDROOMS TERRACE DUPLEX</p>
+            <p className="text-sm opacity-60 pb-3">APPLEWOOD ESTATE 2, ALONG ORCHID ROAD, CHEVRON TOLLGATE LEKKI, LAGOS</p>
+            <ul className="flex text-sm font-bold pb-3">
+              <li className="pr-4">BEDROOM 4</li>
+              <li>BATHROOM 4</li>
+            </ul>
+            <hr />
+            <p className="text-2xl font-bold pt-3">#55,000,000</p>
+          </div>
         </div>
       </SwiperSlide>
     </Swiper>
